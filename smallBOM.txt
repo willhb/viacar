@@ -1,0 +1,16 @@
+Parts Approx:
+
+Mosfet:  1.07	IRF1902TRPBFCT-ND
+AVR	  :  2.58	ATMEGA48A-AURCT-ND
+Reg	  :  0.56	AP1117E50GDICT-ND	
+PCB   :  5.50	BatchPCB
+LED3  :  2.25	Sparkfun
+Opamp :  1.66	MCP6294-E/SL-ND
+LED   :  1.00	475-2512-1-ND
+XTAL  :  1.40 	535-9125-1-ND
+Button:  1.30	CKN9104CT-ND
+Diode :  1.32	BAV19WSTPMSCT-ND
+Induct:  2.19	M10005-ND
+Total :	 20.83	
+
+Rs&Cs :  5.00
