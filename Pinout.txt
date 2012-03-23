@@ -8,16 +8,35 @@ P1.23	MISO0	SSP0		ADC Data out
 P1.20	SCK0	SSP0		ADC Clock in
 P1.21	SSEL0	SSP0		ADC CS in
 
+P0.23	GPIO	MUX			Channel selection for ADC
+P0.24	GPIO	MUX			2^3 = 8 channels
+P0.25	GPIO	MUX			Fast GPIO
+
 Digital pots for attenuation before filtering
 
 P0.1	SCL1	I2C1		IC2 bus for digital pots and accelerometer
-P0.0	SCK1	I2C1		IC2 bus 
+P0.0	SCK1	I2C1		IC2 bus
+
+Motor I/O
+
+P2.5	PWM1.6	PWM			Speed PWM
+P2.4	PWM1.5	PWM			Brake PWM
+P2.3	PWM1.4	PWM			Servo PWM
+
+P0.4	GPIO	OTW			Over Temp warning (FET driver)
+P0.6	GPIO	SD			Shutdown (FET driver)
+P0.2	ADC0.7	I Sense		Current sense (Analog)	
+
+P2.11	EINT1	Speed		Encoder input for speed sensing.
 
 UI I/O
 
 P0.10	TXD2	UART2		UART for debugging
 P0.11	RXD2	UART2		UART for debugging
 
-P2.5	PWM1.6	PWM			Speed PWM
-P2.4	PWM1.5	PWM			Brake PWM
-P2.3	PWM1.4	PWM			Servo PWM
+P0.5	GPIO	Button1		User input
+P0.7	GPIO	Button2		User input
+P0.9	GPIO	LED1		UI output
+P0.8	GPIO	LED2		UI output
+
+
