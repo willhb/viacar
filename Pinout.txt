@@ -4,39 +4,43 @@ AFE I/O
 
 High speed ADC connection
 
-P1.23	MISO0	SSP0		ADC Data out
-P1.20	SCK0	SSP0		ADC Clock in
-P1.21	SSEL0	SSP0		ADC CS in
+P1.23	MISO0	SSP0		ADC_SDO		ADC Data out (1.23 is 5V tolerant)
+P1.20	SCK0	SSP0		ADC_SCLK	ADC Clock in
+P1.21	SSEL0	SSP0		ADC_CS		ADC CS in
 
-P0.23	GPIO	MUX			Channel selection for ADC
-P0.24	GPIO	MUX			2^3 = 8 channels
-P0.25	GPIO	MUX			Fast GPIO
+P0.23	GPIO	MUX		A		Channel selection for ADC
+P0.24	GPIO	MUX		B		2^3 = 8 channels
+P0.25	GPIO	MUX		C		Fast GPIO
 
 Digital pots for attenuation before filtering
 
-P0.1	SCL1	I2C1		IC2 bus for digital pots and accelerometer
-P0.0	SCK1	I2C1		IC2 bus
+P0.1	SCL1	I2C1		SCL_3V3		IC2 bus for accelerometer (pull up to 3.3)
+P0.0	SDA1	I2C1		SDA_3V3		IC2 bus
+
+P0.10	SDA2	I2C2		SDA_5V0		IC2 bus for digital pots (pull up to 5)
+P0.11	SCL2	I2C2		SCL_5V0		Vih is annoyingly at 3.5V
 
 Motor I/O
 
-P2.5	PWM1.6	PWM			Speed PWM
-P2.4	PWM1.5	PWM			Brake PWM
-P2.3	PWM1.4	PWM			Servo PWM
+P2.5	PWM1.6	PWM		SPEED		Speed PWM
+P2.4	PWM1.5	PWM		BRAKE		Brake PWM
+P2.3	PWM1.4	PWM		SERVO		Servo PWM
 
-P0.4	GPIO	OTW			Over Temp warning (FET driver)
-P0.6	GPIO	SD			Shutdown (FET driver)
-P0.2	ADC0.7	I Sense		Current sense (Analog)	
+P0.4	GPIO	OTW		OTW		Over Temp warning (FET driver)
+P0.6	GPIO	SD		SD		Shutdown (FET driver)
+P0.26	ADC0.3	I Sense		I_SENSE		Current sense (Analog)	
 
-P2.11	EINT1	Speed		Encoder input for speed sensing.
+P2.11	EINT1	Speed		POS		Encoder input for speed sensing.
 
 UI I/O
 
-P0.10	TXD2	UART2		UART for debugging
-P0.11	RXD2	UART2		UART for debugging
+P0.2	TXD0	UART0		TX		UART for debugging
+P0.3	RXD0	UART0		RX		UART for debugging
 
-P0.5	GPIO	Button1		User input
-P0.7	GPIO	Button2		User input
-P0.9	GPIO	LED1		UI output
-P0.8	GPIO	LED2		UI output
-
-
+P0.12	GPIO	Button1		SW1		User input
+P0.x	GPIO	Button2		SW2		User input
+P0.9	GPIO	LED1		UI_LED4		UI output
+P0.8	GPIO	LED2		UI_LED3		UI output
+P0.7	GPIO	LED4		UI_LED2		UI Output
+P0.5	GPIO	LED3		UI_LED1		UI output
+	
