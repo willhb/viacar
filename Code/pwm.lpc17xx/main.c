@@ -15,15 +15,18 @@
 */
 
 int servo_steer(float value){
-	int servo_set = 540;
+	int servo_set = 113; //Servo centered on Tamiya Chasis
 	
 	if((value < 0.0) || (value > 1.0)){
 		return -1; 	//Don't update and return an error.
 	} else {
-		servo_set = (int)(540 * value); //Get an integer value from our turn percentage.
+		servo_set = (int)(226 * value); //Get an integer value from our turn percentage.
 	} 
 	
-	LPC_PWM1->MR4 = 4310 + servo_set;	//Add to the minimum servo value.
+	//max = 452
+	// min = 226
+	
+	LPC_PWM1->MR4 = 4310 + 226 + servo_set;	//Add to the minimum servo value.
 	LPC_PWM1->LER |= (1<<4);			//Load enable Match register 4 (MR4), sets the new value. 
 	return 0;	
 }
@@ -54,6 +57,40 @@ int main()
 	int polarity = 0;
 	float a = 0;
 	
+	
+	int r = 0;
+	
+	float sset = 0.0;
+
+	while(1){
+		if(polarity == 0){
+			a += .001 ;
+		}
+		if(polarity == 1){
+			a -= .001;
+		}
+		if(a > 1.0){
+			polarity = 1;
+			delay_ms(100);
+		}
+		if(a < 0.0){
+			polarity = 0;
+			delay_ms(100);
+		}
+		servo_steer(a);
+		delay_ms(2);
+	}
+	
+	while(1){
+		scanf("%d", &r); //Get input in hex.
+		
+		//r *= 19.61;	//5000/255 ~= 19.61
+		sset = r/255.0;
+		servo_steer(sset);
+		
+		printf("R: %d : %f\n\r", r,sset); //Print back the results.
+	}
+	
 	while(1){
 		servo_steer(0.0);
 		delay_ms(500);
@@ -61,24 +98,7 @@ int main()
 		delay_ms(500);
 	}
 	
-	while(1){
-		if(polarity == 0){
-			a += .005;
-		}
-		if(polarity == 1){
-			a -= .005;
-		}
-		if(a > 1.0){
-			polarity = 1;
-			delay_ms(1000);
-		}
-		if(a < 0.0){
-			polarity = 0;
-			delay_ms(1000);
-		}
-		servo_steer(a);
-		delay_ms(2);
-	}
+
 
 	return 0;
 }
