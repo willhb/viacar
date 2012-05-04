@@ -1,0 +1,768 @@
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 2
+  11              		.eabi_attribute 18, 4
+  12              		.thumb
+  13              		.file	"main.c"
+  14              		.text
+  15              		.align	2
+  16              		.global	ext_adc_setup
+  17              		.thumb
+  18              		.thumb_func
+  20              	ext_adc_setup:
+  21              		@ args = 0, pretend = 0, frame = 0
+  22              		@ frame_needed = 0, uses_anonymous_args = 0
+  23              		@ link register save eliminated.
+  24 0000 1649     		ldr	r1, .L2
+  25 0002 10B4     		push	{r4}
+  26 0004 D1F8C440 		ldr	r4, [r1, #196]
+  27 0008 154A     		ldr	r2, .L2+4
+  28 000a 44F40013 		orr	r3, r4, #2097152
+  29 000e C1F8C430 		str	r3, [r1, #196]
+  30 0012 D1F8AC41 		ldr	r4, [r1, #428]
+  31 0016 1348     		ldr	r0, .L2+8
+  32 0018 44F48064 		orr	r4, r4, #1024
+  33 001c C1F8AC41 		str	r4, [r1, #428]
+  34 0020 D168     		ldr	r1, [r2, #12]
+  35 0022 114B     		ldr	r3, .L2+12
+  36 0024 41F44F41 		orr	r1, r1, #52992
+  37 0028 D160     		str	r1, [r2, #12]
+  38 002a D16C     		ldr	r1, [r2, #76]
+  39 002c 41F4723C 		orr	ip, r1, #247808
+  40 0030 4CF4E061 		orr	r1, ip, #1792
+  41 0034 D164     		str	r1, [r2, #76]
+  42 0036 0268     		ldr	r2, [r0, #0]
+  43 0038 42F0006C 		orr	ip, r2, #134217728
+  44 003c 4CF48021 		orr	r1, ip, #262144
+  45 0040 0160     		str	r1, [r0, #0]
+  46 0042 1868     		ldr	r0, [r3, #0]
+  47 0044 40F04F02 		orr	r2, r0, #79
+  48 0048 1A60     		str	r2, [r3, #0]
+  49 004a 5968     		ldr	r1, [r3, #4]
+  50 004c 0222     		movs	r2, #2
+  51 004e 41F00200 		orr	r0, r1, #2
+  52 0052 5860     		str	r0, [r3, #4]
+  53 0054 1A61     		str	r2, [r3, #16]
+  54 0056 10BC     		pop	{r4}
+  55 0058 7047     		bx	lr
+  56              	.L3:
+  57 005a 00BF     		.align	2
+  58              	.L2:
+  59 005c 00C00F40 		.word	1074774016
+  60 0060 00C00240 		.word	1073922048
+  61 0064 20C00920 		.word	537509920
+  62 0068 00800840 		.word	1074298880
+  64              		.align	2
+  65              		.global	ui_setup
+  66              		.thumb
+  67              		.thumb_func
+  69              	ui_setup:
+  70              		@ args = 0, pretend = 0, frame = 0
+  71              		@ frame_needed = 0, uses_anonymous_args = 0
+  72              		@ link register save eliminated.
+  73 006c 104B     		ldr	r3, .L5
+  74 006e 10B4     		push	{r4}
+  75 0070 1C6C     		ldr	r4, [r3, #64]
+  76 0072 1048     		ldr	r0, .L5+4
+  77 0074 44F4082C 		orr	ip, r4, #557056
+  78 0078 4CF40062 		orr	r2, ip, #2048
+  79 007c 1A64     		str	r2, [r3, #64]
+  80 007e 0468     		ldr	r4, [r0, #0]
+  81 0080 0D49     		ldr	r1, .L5+8
+  82 0082 44F42874 		orr	r4, r4, #672
+  83 0086 0460     		str	r4, [r0, #0]
+  84 0088 0868     		ldr	r0, [r1, #0]
+  85 008a 0C4A     		ldr	r2, .L5+12
+  86 008c 40F00050 		orr	r0, r0, #536870912
+  87 0090 0860     		str	r0, [r1, #0]
+  88 0092 596E     		ldr	r1, [r3, #100]
+  89 0094 41F00060 		orr	r0, r1, #134217728
+  90 0098 5866     		str	r0, [r3, #100]
+  91 009a 5169     		ldr	r1, [r2, #20]
+  92 009c 084B     		ldr	r3, .L5+16
+  93 009e 41F40010 		orr	r0, r1, #2097152
+  94 00a2 5061     		str	r0, [r2, #20]
+  95 00a4 4FF40012 		mov	r2, #2097152
+  96 00a8 1A60     		str	r2, [r3, #0]
+  97 00aa 10BC     		pop	{r4}
+  98 00ac 7047     		bx	lr
+  99              	.L6:
+ 100 00ae 00BF     		.align	2
+ 101              	.L5:
+ 102 00b0 00C00240 		.word	1073922048
+ 103 00b4 00C00920 		.word	537509888
+ 104 00b8 80C00920 		.word	537510016
+ 105 00bc 80800240 		.word	1073905792
+ 106 00c0 00E100E0 		.word	-536813312
+ 108              		.align	2
+ 109              		.global	ui_set
+ 110              		.thumb
+ 111              		.thumb_func
+ 113              	ui_set:
+ 114              		@ args = 0, pretend = 0, frame = 0
+ 115              		@ frame_needed = 0, uses_anonymous_args = 0
+ 116              		@ link register save eliminated.
+ 117 00c4 0128     		cmp	r0, #1
+ 118 00c6 10B4     		push	{r4}
+ 119 00c8 1BD0     		beq	.L17
+ 120 00ca 1B48     		ldr	r0, .L21
+ 121 00cc 0129     		cmp	r1, #1
+ 122 00ce C469     		ldr	r4, [r0, #28]
+ 123 00d0 44F00054 		orr	r4, r4, #536870912
+ 124 00d4 C461     		str	r4, [r0, #28]
+ 125 00d6 1BD0     		beq	.L18
+ 126              	.L10:
+ 127 00d8 1849     		ldr	r1, .L21+4
+ 128 00da 012A     		cmp	r2, #1
+ 129 00dc C869     		ldr	r0, [r1, #28]
+ 130 00de 40F02000 		orr	r0, r0, #32
+ 131 00e2 C861     		str	r0, [r1, #28]
+ 132 00e4 1BD0     		beq	.L19
+ 133              	.L12:
+ 134 00e6 154A     		ldr	r2, .L21+4
+ 135 00e8 012B     		cmp	r3, #1
+ 136 00ea D069     		ldr	r0, [r2, #28]
+ 137 00ec 40F08001 		orr	r1, r0, #128
+ 138 00f0 D161     		str	r1, [r2, #28]
+ 139 00f2 1BD0     		beq	.L20
+ 140              	.L14:
+ 141 00f4 1149     		ldr	r1, .L21+4
+ 142 00f6 CB69     		ldr	r3, [r1, #28]
+ 143 00f8 43F40070 		orr	r0, r3, #512
+ 144 00fc C861     		str	r0, [r1, #28]
+ 145              	.L7:
+ 146 00fe 10BC     		pop	{r4}
+ 147 0100 7047     		bx	lr
+ 148              	.L17:
+ 149 0102 0D48     		ldr	r0, .L21
+ 150 0104 0129     		cmp	r1, #1
+ 151 0106 8469     		ldr	r4, [r0, #24]
+ 152 0108 44F00054 		orr	r4, r4, #536870912
+ 153 010c 8461     		str	r4, [r0, #24]
+ 154 010e E3D1     		bne	.L10
+ 155              	.L18:
+ 156 0110 0A49     		ldr	r1, .L21+4
+ 157 0112 012A     		cmp	r2, #1
+ 158 0114 8869     		ldr	r0, [r1, #24]
+ 159 0116 40F02000 		orr	r0, r0, #32
+ 160 011a 8861     		str	r0, [r1, #24]
+ 161 011c E3D1     		bne	.L12
+ 162              	.L19:
+ 163 011e 074A     		ldr	r2, .L21+4
+ 164 0120 012B     		cmp	r3, #1
+ 165 0122 9069     		ldr	r0, [r2, #24]
+ 166 0124 40F08001 		orr	r1, r0, #128
+ 167 0128 9161     		str	r1, [r2, #24]
+ 168 012a E3D1     		bne	.L14
+ 169              	.L20:
+ 170 012c 034B     		ldr	r3, .L21+4
+ 171 012e 9A69     		ldr	r2, [r3, #24]
+ 172 0130 42F40071 		orr	r1, r2, #512
+ 173 0134 9961     		str	r1, [r3, #24]
+ 174 0136 E2E7     		b	.L7
+ 175              	.L22:
+ 176              		.align	2
+ 177              	.L21:
+ 178 0138 80C00920 		.word	537510016
+ 179 013c 00C00920 		.word	537509888
+ 181              		.global	__aeabi_fcmplt
+ 182              		.global	__aeabi_fcmpgt
+ 183              		.global	__aeabi_fmul
+ 184              		.global	__aeabi_f2iz
+ 185              		.align	2
+ 186              		.global	servo_steer
+ 187              		.thumb
+ 188              		.thumb_func
+ 190              	servo_steer:
+ 191              		@ args = 0, pretend = 0, frame = 0
+ 192              		@ frame_needed = 0, uses_anonymous_args = 0
+ 193 0140 10B5     		push	{r4, lr}
+ 194 0142 0021     		movs	r1, #0
+ 195 0144 0446     		mov	r4, r0
+ 196 0146 FFF7FEFF 		bl	__aeabi_fcmplt
+ 197 014a 10B1     		cbz	r0, .L27
+ 198 014c 4FF0FF30 		mov	r0, #-1
+ 199 0150 10BD     		pop	{r4, pc}
+ 200              	.L27:
+ 201 0152 2046     		mov	r0, r4
+ 202 0154 4FF07E51 		mov	r1, #1065353216
+ 203 0158 FFF7FEFF 		bl	__aeabi_fcmpgt
+ 204 015c 80B9     		cbnz	r0, .L26
+ 205 015e 0A49     		ldr	r1, .L28
+ 206 0160 2046     		mov	r0, r4
+ 207 0162 FFF7FEFF 		bl	__aeabi_fmul
+ 208 0166 FFF7FEFF 		bl	__aeabi_f2iz
+ 209 016a 084B     		ldr	r3, .L28+4
+ 210 016c 00F58C50 		add	r0, r0, #4480
+ 211 0170 3830     		adds	r0, r0, #56
+ 212 0172 D861     		str	r0, [r3, #28]
+ 213 0174 196D     		ldr	r1, [r3, #80]
+ 214 0176 0020     		movs	r0, #0
+ 215 0178 41F00202 		orr	r2, r1, #2
+ 216 017c 1A65     		str	r2, [r3, #80]
+ 217 017e 10BD     		pop	{r4, pc}
+ 218              	.L26:
+ 219 0180 4FF0FF30 		mov	r0, #-1
+ 220 0184 10BD     		pop	{r4, pc}
+ 221              	.L29:
+ 222 0186 00BF     		.align	2
+ 223              	.L28:
+ 224 0188 00006243 		.word	1130496000
+ 225 018c 00800140 		.word	1073840128
+ 227              		.align	2
+ 228              		.global	servo_setup
+ 229              		.thumb
+ 230              		.thumb_func
+ 232              	servo_setup:
+ 233              		@ args = 0, pretend = 0, frame = 0
+ 234              		@ frame_needed = 0, uses_anonymous_args = 0
+ 235              		@ link register save eliminated.
+ 236 0190 114A     		ldr	r2, .L31
+ 237 0192 1249     		ldr	r1, .L31+4
+ 238 0194 D2F8C400 		ldr	r0, [r2, #196]
+ 239 0198 114B     		ldr	r3, .L31+8
+ 240 019a 40F04000 		orr	r0, r0, #64
+ 241 019e C2F8C400 		str	r0, [r2, #196]
+ 242 01a2 D2F8A801 		ldr	r0, [r2, #424]
+ 243 01a6 40F44050 		orr	r0, r0, #12288
+ 244 01aa C2F8A801 		str	r0, [r2, #424]
+ 245 01ae 0A69     		ldr	r2, [r1, #16]
+ 246 01b0 42F00100 		orr	r0, r2, #1
+ 247 01b4 0861     		str	r0, [r1, #16]
+ 248 01b6 DA6C     		ldr	r2, [r3, #76]
+ 249 01b8 2820     		movs	r0, #40
+ 250 01ba 42F40071 		orr	r1, r2, #512
+ 251 01be D964     		str	r1, [r3, #76]
+ 252 01c0 41F28832 		movw	r2, #5000
+ 253 01c4 41F2E411 		movw	r1, #4580
+ 254 01c8 D860     		str	r0, [r3, #12]
+ 255 01ca 9A61     		str	r2, [r3, #24]
+ 256 01cc D961     		str	r1, [r3, #28]
+ 257 01ce 5868     		ldr	r0, [r3, #4]
+ 258 01d0 40F00902 		orr	r2, r0, #9
+ 259 01d4 5A60     		str	r2, [r3, #4]
+ 260 01d6 7047     		bx	lr
+ 261              	.L32:
+ 262              		.align	2
+ 263              	.L31:
+ 264 01d8 00C00F40 		.word	1074774016
+ 265 01dc 00C00240 		.word	1073922048
+ 266 01e0 00800140 		.word	1073840128
+ 268              		.align	2
+ 269              		.global	motor_speed
+ 270              		.thumb
+ 271              		.thumb_func
+ 273              	motor_speed:
+ 274              		@ args = 0, pretend = 0, frame = 0
+ 275              		@ frame_needed = 0, uses_anonymous_args = 0
+ 276 01e4 70B5     		push	{r4, r5, r6, lr}
+ 277 01e6 0F4C     		ldr	r4, .L38
+ 278 01e8 0021     		movs	r1, #0
+ 279 01ea 636B     		ldr	r3, [r4, #52]
+ 280 01ec 0546     		mov	r5, r0
+ 281 01ee FFF7FEFF 		bl	__aeabi_fcmplt
+ 282 01f2 10B1     		cbz	r0, .L37
+ 283 01f4 4FF0FF30 		mov	r0, #-1
+ 284 01f8 70BD     		pop	{r4, r5, r6, pc}
+ 285              	.L37:
+ 286 01fa 2846     		mov	r0, r5
+ 287 01fc 4FF07E51 		mov	r1, #1065353216
+ 288 0200 FFF7FEFF 		bl	__aeabi_fcmpgt
+ 289 0204 50B9     		cbnz	r0, .L36
+ 290 0206 0026     		movs	r6, #0
+ 291 0208 0749     		ldr	r1, .L38+4
+ 292 020a 2846     		mov	r0, r5
+ 293 020c 6663     		str	r6, [r4, #52]
+ 294 020e FFF7FEFF 		bl	__aeabi_fmul
+ 295 0212 FFF7FEFF 		bl	__aeabi_f2iz
+ 296 0216 A063     		str	r0, [r4, #56]
+ 297 0218 3046     		mov	r0, r6
+ 298 021a 70BD     		pop	{r4, r5, r6, pc}
+ 299              	.L36:
+ 300 021c 4FF0FF30 		mov	r0, #-1
+ 301 0220 70BD     		pop	{r4, r5, r6, pc}
+ 302              	.L39:
+ 303 0222 00BF     		.align	2
+ 304              	.L38:
+ 305 0224 00800B40 		.word	1074495488
+ 306 0228 00409C46 		.word	1184645120
+ 308              		.align	2
+ 309              		.global	motor_brake
+ 310              		.thumb
+ 311              		.thumb_func
+ 313              	motor_brake:
+ 314              		@ args = 0, pretend = 0, frame = 0
+ 315              		@ frame_needed = 0, uses_anonymous_args = 0
+ 316 022c 70B5     		push	{r4, r5, r6, lr}
+ 317 022e 0F4C     		ldr	r4, .L45
+ 318 0230 0021     		movs	r1, #0
+ 319 0232 A36B     		ldr	r3, [r4, #56]
+ 320 0234 0546     		mov	r5, r0
+ 321 0236 FFF7FEFF 		bl	__aeabi_fcmplt
+ 322 023a 10B1     		cbz	r0, .L44
+ 323 023c 4FF0FF30 		mov	r0, #-1
+ 324 0240 70BD     		pop	{r4, r5, r6, pc}
+ 325              	.L44:
+ 326 0242 2846     		mov	r0, r5
+ 327 0244 4FF07E51 		mov	r1, #1065353216
+ 328 0248 FFF7FEFF 		bl	__aeabi_fcmpgt
+ 329 024c 50B9     		cbnz	r0, .L43
+ 330 024e 0026     		movs	r6, #0
+ 331 0250 0749     		ldr	r1, .L45+4
+ 332 0252 2846     		mov	r0, r5
+ 333 0254 A663     		str	r6, [r4, #56]
+ 334 0256 FFF7FEFF 		bl	__aeabi_fmul
+ 335 025a FFF7FEFF 		bl	__aeabi_f2iz
+ 336 025e 6063     		str	r0, [r4, #52]
+ 337 0260 3046     		mov	r0, r6
+ 338 0262 70BD     		pop	{r4, r5, r6, pc}
+ 339              	.L43:
+ 340 0264 4FF0FF30 		mov	r0, #-1
+ 341 0268 70BD     		pop	{r4, r5, r6, pc}
+ 342              	.L46:
+ 343 026a 00BF     		.align	2
+ 344              	.L45:
+ 345 026c 00800B40 		.word	1074495488
+ 346 0270 00409C46 		.word	1184645120
+ 348              		.global	__aeabi_i2d
+ 349              		.global	__aeabi_dmul
+ 350              		.global	__aeabi_d2uiz
+ 351              		.align	2
+ 352              		.global	rgb_set
+ 353              		.thumb
+ 354              		.thumb_func
+ 356              	rgb_set:
+ 357              		@ args = 0, pretend = 0, frame = 0
+ 358              		@ frame_needed = 0, uses_anonymous_args = 0
+ 359 0274 70B5     		push	{r4, r5, r6, lr}
+ 360 0276 0546     		mov	r5, r0
+ 361 0278 0846     		mov	r0, r1
+ 362 027a 1646     		mov	r6, r2
+ 363 027c FFF7FEFF 		bl	__aeabi_i2d
+ 364 0280 13A3     		adr	r3, .L48
+ 365 0282 D3E90023 		ldrd	r2, [r3]
+ 366 0286 FFF7FEFF 		bl	__aeabi_dmul
+ 367 028a FFF7FEFF 		bl	__aeabi_d2uiz
+ 368 028e 124C     		ldr	r4, .L48+8
+ 369 0290 0346     		mov	r3, r0
+ 370 0292 2362     		str	r3, [r4, #32]
+ 371 0294 3046     		mov	r0, r6
+ 372 0296 FFF7FEFF 		bl	__aeabi_i2d
+ 373 029a 0DA3     		adr	r3, .L48
+ 374 029c D3E90023 		ldrd	r2, [r3]
+ 375 02a0 FFF7FEFF 		bl	__aeabi_dmul
+ 376 02a4 FFF7FEFF 		bl	__aeabi_d2uiz
+ 377 02a8 0346     		mov	r3, r0
+ 378 02aa 6362     		str	r3, [r4, #36]
+ 379 02ac 2846     		mov	r0, r5
+ 380 02ae FFF7FEFF 		bl	__aeabi_i2d
+ 381 02b2 07A3     		adr	r3, .L48
+ 382 02b4 D3E90023 		ldrd	r2, [r3]
+ 383 02b8 FFF7FEFF 		bl	__aeabi_dmul
+ 384 02bc FFF7FEFF 		bl	__aeabi_d2uiz
+ 385 02c0 2064     		str	r0, [r4, #64]
+ 386 02c2 236D     		ldr	r3, [r4, #80]
+ 387 02c4 0020     		movs	r0, #0
+ 388 02c6 43F01C03 		orr	r3, r3, #28
+ 389 02ca 2365     		str	r3, [r4, #80]
+ 390 02cc 70BD     		pop	{r4, r5, r6, pc}
+ 391              	.L49:
+ 392 02ce 00BF     		.align	3
+ 393              	.L48:
+ 394 02d0 5C8FC2F5 		.word	-171798692
+ 395 02d4 289C3340 		.word	1077124136
+ 396 02d8 00800140 		.word	1073840128
+ 398              		.align	2
+ 399              		.global	rgb_setup
+ 400              		.thumb
+ 401              		.thumb_func
+ 403              	rgb_setup:
+ 404              		@ args = 0, pretend = 0, frame = 0
+ 405              		@ frame_needed = 0, uses_anonymous_args = 0
+ 406              		@ link register save eliminated.
+ 407 02dc 0E4A     		ldr	r2, .L51
+ 408 02de 10B4     		push	{r4}
+ 409 02e0 D2F8C440 		ldr	r4, [r2, #196]
+ 410 02e4 0D48     		ldr	r0, .L51+4
+ 411 02e6 44F04001 		orr	r1, r4, #64
+ 412 02ea C2F8C410 		str	r1, [r2, #196]
+ 413 02ee D2F8A841 		ldr	r4, [r2, #424]
+ 414 02f2 0B4B     		ldr	r3, .L51+8
+ 415 02f4 44F44054 		orr	r4, r4, #12288
+ 416 02f8 C2F8A841 		str	r4, [r2, #424]
+ 417 02fc 0269     		ldr	r2, [r0, #16]
+ 418 02fe 0021     		movs	r1, #0
+ 419 0300 42F05402 		orr	r2, r2, #84
+ 420 0304 0261     		str	r2, [r0, #16]
+ 421 0306 D86C     		ldr	r0, [r3, #76]
+ 422 0308 40F4E052 		orr	r2, r0, #7168
+ 423 030c DA64     		str	r2, [r3, #76]
+ 424 030e 1964     		str	r1, [r3, #64]
+ 425 0310 5962     		str	r1, [r3, #36]
+ 426 0312 1962     		str	r1, [r3, #32]
+ 427 0314 10BC     		pop	{r4}
+ 428 0316 7047     		bx	lr
+ 429              	.L52:
+ 430              		.align	2
+ 431              	.L51:
+ 432 0318 00C00F40 		.word	1074774016
+ 433 031c 00C00240 		.word	1073922048
+ 434 0320 00800140 		.word	1073840128
+ 436              		.align	2
+ 437              		.global	mux_setup
+ 438              		.thumb
+ 439              		.thumb_func
+ 441              	mux_setup:
+ 442              		@ args = 0, pretend = 0, frame = 0
+ 443              		@ frame_needed = 0, uses_anonymous_args = 0
+ 444              		@ link register save eliminated.
+ 445 0324 094A     		ldr	r2, .L54
+ 446 0326 0A4B     		ldr	r3, .L54+4
+ 447 0328 516C     		ldr	r1, [r2, #68]
+ 448 032a 41F42820 		orr	r0, r1, #688128
+ 449 032e 5064     		str	r0, [r2, #68]
+ 450 0330 1968     		ldr	r1, [r3, #0]
+ 451 0332 41F09C50 		orr	r0, r1, #327155712
+ 452 0336 1860     		str	r0, [r3, #0]
+ 453 0338 DA69     		ldr	r2, [r3, #28]
+ 454 033a 42F06071 		orr	r1, r2, #58720256
+ 455 033e D961     		str	r1, [r3, #28]
+ 456 0340 9869     		ldr	r0, [r3, #24]
+ 457 0342 40F08052 		orr	r2, r0, #268435456
+ 458 0346 9A61     		str	r2, [r3, #24]
+ 459 0348 7047     		bx	lr
+ 460              	.L55:
+ 461 034a 00BF     		.align	2
+ 462              	.L54:
+ 463 034c 00C00240 		.word	1073922048
+ 464 0350 00C00920 		.word	537509888
+ 466              		.align	2
+ 467              		.global	mux_set
+ 468              		.thumb
+ 469              		.thumb_func
+ 471              	mux_set:
+ 472              		@ args = 0, pretend = 0, frame = 0
+ 473              		@ frame_needed = 0, uses_anonymous_args = 0
+ 474              		@ link register save eliminated.
+ 475 0354 0728     		cmp	r0, #7
+ 476 0356 08D8     		bhi	.L58
+ 477 0358 C005     		lsls	r0, r0, #23
+ 478 035a 054B     		ldr	r3, .L59
+ 479 035c C143     		mvns	r1, r0
+ 480 035e 01F06072 		and	r2, r1, #58720256
+ 481 0362 9861     		str	r0, [r3, #24]
+ 482 0364 0120     		movs	r0, #1
+ 483 0366 DA61     		str	r2, [r3, #28]
+ 484 0368 7047     		bx	lr
+ 485              	.L58:
+ 486 036a 4FF0FF30 		mov	r0, #-1
+ 487 036e 7047     		bx	lr
+ 488              	.L60:
+ 489              		.align	2
+ 490              	.L59:
+ 491 0370 00C00920 		.word	537509888
+ 493              		.align	2
+ 494              		.global	motor_setup
+ 495              		.thumb
+ 496              		.thumb_func
+ 498              	motor_setup:
+ 499              		@ args = 0, pretend = 0, frame = 0
+ 500              		@ frame_needed = 0, uses_anonymous_args = 0
+ 501              		@ link register save eliminated.
+ 502 0374 1C48     		ldr	r0, .L62
+ 503 0376 30B4     		push	{r4, r5}
+ 504 0378 D0F8C450 		ldr	r5, [r0, #196]
+ 505 037c 1B4B     		ldr	r3, .L62+4
+ 506 037e 45F40032 		orr	r2, r5, #131072
+ 507 0382 C0F8C420 		str	r2, [r0, #196]
+ 508 0386 D0F8AC41 		ldr	r4, [r0, #428]
+ 509 038a 1949     		ldr	r1, .L62+8
+ 510 038c 44F04045 		orr	r5, r4, #-1073741824
+ 511 0390 C0F8AC51 		str	r5, [r0, #428]
+ 512 0394 1C6C     		ldr	r4, [r3, #64]
+ 513 0396 174A     		ldr	r2, .L62+12
+ 514 0398 44F40075 		orr	r5, r4, #512
+ 515 039c 1D64     		str	r5, [r3, #64]
+ 516 039e 986E     		ldr	r0, [r3, #104]
+ 517 03a0 40F01004 		orr	r4, r0, #16
+ 518 03a4 9C66     		str	r4, [r3, #104]
+ 519 03a6 5D6C     		ldr	r5, [r3, #68]
+ 520 03a8 44F62064 		movw	r4, #20000
+ 521 03ac 45F40010 		orr	r0, r5, #2097152
+ 522 03b0 5864     		str	r0, [r3, #68]
+ 523 03b2 DD6C     		ldr	r5, [r3, #76]
+ 524 03b4 0020     		movs	r0, #0
+ 525 03b6 45F00275 		orr	r5, r5, #34078720
+ 526 03ba DD64     		str	r5, [r3, #76]
+ 527 03bc 0D68     		ldr	r5, [r1, #0]
+ 528 03be 45F04005 		orr	r5, r5, #64
+ 529 03c2 0D60     		str	r5, [r1, #0]
+ 530 03c4 CD69     		ldr	r5, [r1, #28]
+ 531 03c6 45F04005 		orr	r5, r5, #64
+ 532 03ca CD61     		str	r5, [r1, #28]
+ 533 03cc D462     		str	r4, [r2, #44]
+ 534 03ce 0A49     		ldr	r1, .L62+16
+ 535 03d0 9063     		str	r0, [r2, #56]
+ 536 03d2 9462     		str	r4, [r2, #40]
+ 537 03d4 5063     		str	r0, [r2, #52]
+ 538 03d6 0948     		ldr	r0, .L62+20
+ 539 03d8 D063     		str	r0, [r2, #60]
+ 540 03da 5160     		str	r1, [r2, #4]
+ 541 03dc D868     		ldr	r0, [r3, #12]
+ 542 03de 40F08272 		orr	r2, r0, #17039360
+ 543 03e2 DA60     		str	r2, [r3, #12]
+ 544 03e4 30BC     		pop	{r4, r5}
+ 545 03e6 7047     		bx	lr
+ 546              	.L63:
+ 547              		.align	2
+ 548              	.L62:
+ 549 03e8 00C00F40 		.word	1074774016
+ 550 03ec 00C00240 		.word	1073922048
+ 551 03f0 00C00920 		.word	537509888
+ 552 03f4 00800B40 		.word	1074495488
+ 553 03f8 00050500 		.word	328960
+ 554 03fc 00041000 		.word	1049600
+ 556              		.align	2
+ 557              		.global	EINT3_IRQHandler
+ 558              		.thumb
+ 559              		.thumb_func
+ 561              	EINT3_IRQHandler:
+ 562              		@ args = 0, pretend = 0, frame = 0
+ 563              		@ frame_needed = 0, uses_anonymous_args = 0
+ 564              		@ link register save eliminated.
+ 565 0400 0748     		ldr	r0, .L66
+ 566 0402 084B     		ldr	r3, .L66+4
+ 567 0404 C268     		ldr	r2, [r0, #12]
+ 568 0406 42F40011 		orr	r1, r2, #2097152
+ 569 040a C160     		str	r1, [r0, #12]
+ 570 040c 1A68     		ldr	r2, [r3, #0]
+ 571 040e 2AB9     		cbnz	r2, .L64
+ 572 0410 5A68     		ldr	r2, [r3, #4]
+ 573 0412 0121     		movs	r1, #1
+ 574 0414 82F00100 		eor	r0, r2, #1
+ 575 0418 5860     		str	r0, [r3, #4]
+ 576 041a 1960     		str	r1, [r3, #0]
+ 577              	.L64:
+ 578 041c 7047     		bx	lr
+ 579              	.L67:
+ 580 041e 00BF     		.align	2
+ 581              	.L66:
+ 582 0420 80800240 		.word	1073905792
+ 583 0424 00000000 		.word	.LANCHOR0
+ 585              		.align	2
+ 586              		.global	main
+ 587              		.thumb
+ 588              		.thumb_func
+ 590              	main:
+ 591              		@ args = 0, pretend = 0, frame = 0
+ 592              		@ frame_needed = 0, uses_anonymous_args = 0
+ 593 0428 70B5     		push	{r4, r5, r6, lr}
+ 594 042a 474A     		ldr	r2, .L77
+ 595 042c 474D     		ldr	r5, .L77+4
+ 596 042e 484C     		ldr	r4, .L77+8
+ 597 0430 7021     		movs	r1, #112
+ 598 0432 2260     		str	r2, [r4, #0]
+ 599 0434 2960     		str	r1, [r5, #0]
+ 600 0436 FFF7FEFF 		bl	rgb_setup
+ 601 043a 0020     		movs	r0, #0
+ 602 043c FF21     		movs	r1, #255
+ 603 043e 0246     		mov	r2, r0
+ 604 0440 FFF7FEFF 		bl	rgb_set
+ 605 0444 FFF7FEFF 		bl	motor_setup
+ 606 0448 FFF7FEFF 		bl	mux_setup
+ 607 044c FFF7FEFF 		bl	ui_setup
+ 608 0450 FFF7FEFF 		bl	servo_setup
+ 609 0454 6420     		movs	r0, #100
+ 610 0456 FFF7FEFF 		bl	delay_ms
+ 611 045a 0021     		movs	r1, #0
+ 612 045c 0A46     		mov	r2, r1
+ 613 045e 0B46     		mov	r3, r1
+ 614 0460 0120     		movs	r0, #1
+ 615 0462 FFF7FEFF 		bl	ui_set
+ 616 0466 6420     		movs	r0, #100
+ 617 0468 FFF7FEFF 		bl	delay_ms
+ 618 046c 0022     		movs	r2, #0
+ 619 046e 0120     		movs	r0, #1
+ 620 0470 0146     		mov	r1, r0
+ 621 0472 1346     		mov	r3, r2
+ 622 0474 FFF7FEFF 		bl	ui_set
+ 623 0478 6420     		movs	r0, #100
+ 624 047a FFF7FEFF 		bl	delay_ms
+ 625 047e 0120     		movs	r0, #1
+ 626 0480 0146     		mov	r1, r0
+ 627 0482 0246     		mov	r2, r0
+ 628 0484 0023     		movs	r3, #0
+ 629 0486 FFF7FEFF 		bl	ui_set
+ 630 048a 6420     		movs	r0, #100
+ 631 048c FFF7FEFF 		bl	delay_ms
+ 632 0490 0120     		movs	r0, #1
+ 633 0492 0146     		mov	r1, r0
+ 634 0494 0246     		mov	r2, r0
+ 635 0496 0346     		mov	r3, r0
+ 636 0498 FFF7FEFF 		bl	ui_set
+ 637 049c 6420     		movs	r0, #100
+ 638 049e FFF7FEFF 		bl	delay_ms
+ 639 04a2 0020     		movs	r0, #0
+ 640 04a4 0346     		mov	r3, r0
+ 641 04a6 0146     		mov	r1, r0
+ 642 04a8 0246     		mov	r2, r0
+ 643 04aa FFF7FEFF 		bl	ui_set
+ 644 04ae 4FF07C50 		mov	r0, #1056964608
+ 645 04b2 FFF7FEFF 		bl	servo_steer
+ 646 04b6 FFF7FEFF 		bl	ext_adc_setup
+ 647 04ba 0021     		movs	r1, #0
+ 648 04bc 0A46     		mov	r2, r1
+ 649 04be FF20     		movs	r0, #255
+ 650 04c0 FFF7FEFF 		bl	rgb_set
+ 651 04c4 4FF07C50 		mov	r0, #1056964608
+ 652 04c8 FFF7FEFF 		bl	servo_steer
+ 653 04cc 214A     		ldr	r2, .L77+12
+ 654 04ce 4FF40000 		mov	r0, #8388608
+ 655 04d2 0021     		movs	r1, #0
+ 656 04d4 4FF04073 		mov	r3, #50331648
+ 657 04d8 A861     		str	r0, [r5, #24]
+ 658 04da 3224     		movs	r4, #50
+ 659 04dc EB61     		str	r3, [r5, #28]
+ 660 04de 1046     		mov	r0, r2
+ 661 04e0 0D46     		mov	r5, r1
+ 662              	.L70:
+ 663 04e2 9560     		str	r5, [r2, #8]
+ 664              	.L69:
+ 665 04e4 D368     		ldr	r3, [r2, #12]
+ 666 04e6 03F01406 		and	r6, r3, #20
+ 667 04ea 042E     		cmp	r6, #4
+ 668 04ec FAD1     		bne	.L69
+ 669 04ee 8668     		ldr	r6, [r0, #8]
+ 670 04f0 01EB9601 		add	r1, r1, r6, lsr #2
+ 671 04f4 4908     		lsrs	r1, r1, #1
+ 672 04f6 013C     		subs	r4, r4, #1
+ 673 04f8 F3D1     		bne	.L70
+ 674 04fa 1748     		ldr	r0, .L77+16
+ 675 04fc FFF7FEFF 		bl	printf
+ 676 0500 164E     		ldr	r6, .L77+20
+ 677 0502 174D     		ldr	r5, .L77+24
+ 678 0504 0CE0     		b	.L76
+ 679              	.L72:
+ 680 0506 0A46     		mov	r2, r1
+ 681 0508 FF20     		movs	r0, #255
+ 682 050a FFF7FEFF 		bl	rgb_set
+ 683 050e 0020     		movs	r0, #0
+ 684 0510 0346     		mov	r3, r0
+ 685 0512 0146     		mov	r1, r0
+ 686 0514 0246     		mov	r2, r0
+ 687 0516 FFF7FEFF 		bl	ui_set
+ 688 051a 6B6B     		ldr	r3, [r5, #52]
+ 689 051c 6C63     		str	r4, [r5, #52]
+ 690 051e AC63     		str	r4, [r5, #56]
+ 691              	.L76:
+ 692 0520 3460     		str	r4, [r6, #0]
+ 693 0522 7068     		ldr	r0, [r6, #4]
+ 694 0524 0021     		movs	r1, #0
+ 695 0526 0128     		cmp	r0, #1
+ 696 0528 EDD1     		bne	.L72
+ 697 052a 0146     		mov	r1, r0
+ 698 052c 0246     		mov	r2, r0
+ 699 052e 0346     		mov	r3, r0
+ 700 0530 FFF7FEFF 		bl	ui_set
+ 701 0534 0020     		movs	r0, #0
+ 702 0536 6B6B     		ldr	r3, [r5, #52]
+ 703 0538 0146     		mov	r1, r0
+ 704 053a 6C63     		str	r4, [r5, #52]
+ 705 053c FF22     		movs	r2, #255
+ 706 053e AC63     		str	r4, [r5, #56]
+ 707 0540 FFF7FEFF 		bl	rgb_set
+ 708 0544 ECE7     		b	.L76
+ 709              	.L78:
+ 710 0546 00BF     		.align	2
+ 711              	.L77:
+ 712 0548 00000408 		.word	134479872
+ 713 054c 00C00920 		.word	537509888
+ 714 0550 20C00920 		.word	537509920
+ 715 0554 00800840 		.word	1074298880
+ 716 0558 00000000 		.word	.LC0
+ 717 055c 00000000 		.word	.LANCHOR0
+ 718 0560 00800B40 		.word	1074495488
+ 720              		.global	pause
+ 721              		.global	debounce
+ 722              		.section	.rodata.str1.4,"aMS",%progbits,1
+ 723              		.align	2
+ 724              	.LC0:
+ 725 0000 41766572 		.ascii	"Average: %d \012\015\000"
+ 725      6167653A 
+ 725      20256420 
+ 725      0A0D00
+ 726 000f 00       		.bss
+ 727              		.align	2
+ 728              		.set	.LANCHOR0,. + 0
+ 731              	debounce:
+ 732 0000 00000000 		.space	4
+ 735              	pause:
+ 736 0004 00000000 		.space	4
+ 737              		.ident	"GCC: (Sourcery G++ Lite 2011.03-42) 4.5.2"
+DEFINED SYMBOLS
+                            *ABS*:00000000 main.c
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:15     .text:00000000 $t
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:20     .text:00000000 ext_adc_setup
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:59     .text:0000005c $d
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:64     .text:0000006c $t
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:69     .text:0000006c ui_setup
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:102    .text:000000b0 $d
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:108    .text:000000c4 $t
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:113    .text:000000c4 ui_set
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:178    .text:00000138 $d
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:185    .text:00000140 $t
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:190    .text:00000140 servo_steer
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:224    .text:00000188 $d
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:227    .text:00000190 $t
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:232    .text:00000190 servo_setup
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:264    .text:000001d8 $d
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:268    .text:000001e4 $t
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:273    .text:000001e4 motor_speed
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:305    .text:00000224 $d
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:308    .text:0000022c $t
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:313    .text:0000022c motor_brake
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:345    .text:0000026c $d
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:351    .text:00000274 $t
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:356    .text:00000274 rgb_set
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:394    .text:000002d0 $d
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:398    .text:000002dc $t
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:403    .text:000002dc rgb_setup
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:432    .text:00000318 $d
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:436    .text:00000324 $t
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:441    .text:00000324 mux_setup
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:463    .text:0000034c $d
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:466    .text:00000354 $t
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:471    .text:00000354 mux_set
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:491    .text:00000370 $d
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:493    .text:00000374 $t
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:498    .text:00000374 motor_setup
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:549    .text:000003e8 $d
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:556    .text:00000400 $t
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:561    .text:00000400 EINT3_IRQHandler
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:582    .text:00000420 $d
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:585    .text:00000428 $t
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:590    .text:00000428 main
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:712    .text:00000548 $d
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:735    .bss:00000004 pause
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:731    .bss:00000000 debounce
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:723    .rodata.str1.4:00000000 $d
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:727    .bss:00000000 $d
+/var/folders/2S/2S4fznwPFfOJX3pL8UoxaU+++TI/-Tmp-//ccJ2wXD7.s:737    .text:00000564 $t
+
+UNDEFINED SYMBOLS
+__aeabi_fcmplt
+__aeabi_fcmpgt
+__aeabi_fmul
+__aeabi_f2iz
+__aeabi_i2d
+__aeabi_dmul
+__aeabi_d2uiz
+delay_ms
+printf

@@ -1,0 +1,1311 @@
+Archive member included because of file (symbol)
+
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o)
+                              main.o (printf)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o) (_vfprintf_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (__swsetup_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (_dtoa_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (_fflush_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o) (__sinit)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o) (_free_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o) (_fwalk)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o) (_impure_ptr)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (_localeconv_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o) (__smakebuf_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-malloc.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o) (malloc)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o) (_malloc_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (memchr)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o) (memcpy)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o) (memset)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o) (__malloc_lock)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o) (_Balloc)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-s_fpclassify.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (__fpclassifyd)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o) (_sbrk_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o) (__sread)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o) (strcmp)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (strlen)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (__sprint_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o) (_write_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-callocr.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o) (_calloc_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o) (_close_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o) (fclose)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o) (_fputwc_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o) (_fstat_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o) (__sfvwrite_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o) (_isatty_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o) (_lseek_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o) (memmove)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o) (_read_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o) (_realloc_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o) (errno)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o) (__swbuf_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o) (_wcrtomb_r)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o) (__wctomb)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(syscalls.o)
+                              (_sbrk)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(startup_LPC17xx.o)
+                              (_vectors)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(stubs.o)
+                              (_open)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(system_LPC17xx.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(startup_LPC17xx.o) (SystemInit)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/liblpc17xx.lpc17xx.a(openlpc.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(system_LPC17xx.o) (openlpc_init)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivsi3.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o) (__aeabi_uidiv)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divsi3.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (__aeabi_idiv)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_dvmd_tls.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_addsubdf3.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o) (__aeabi_dsub)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_muldivdf3.o)
+                              main.o (__aeabi_dmul)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_cmpdf2.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (__aeabi_dcmpeq)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixdfsi.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o) (__aeabi_d2iz)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixunsdfsi.o)
+                              main.o (__aeabi_d2uiz)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_muldivsf3.o)
+                              main.o (__aeabi_fmul)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_cmpsf2.o)
+                              main.o (__aeabi_fcmplt)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixsfsi.o)
+                              main.o (__aeabi_f2iz)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_aeabi_uldivmod.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o) (__aeabi_uldivmod)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(bpabi.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divdi3.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(bpabi.o) (__divdi3)
+/Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivdi3.o)
+                              /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(bpabi.o) (__udivdi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00006000         0x0007a000         xr
+ram              0x10000000         0x00008000         xrw
+ram1             0x2007c000         0x00004000         xrw
+ram2             0x20080000         0x00004000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD main.o
+LOAD /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a
+LOAD /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libm.a
+LOAD /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a
+LOAD /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/liblpc17xx.lpc17xx.a
+START GROUP
+LOAD /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a
+LOAD /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a
+END GROUP
+                0x10000608                PROVIDE (__cs3_heap_start, _end)
+                0x10008000                PROVIDE (__cs3_heap_end, (__cs3_region_start_ram + __cs3_region_size_ram))
+                0x00000001                PROVIDE (__cs3_region_num, ((__cs3_regions_end - __cs3_regions) / 0x14))
+                0x10008000                PROVIDE (__cs3_stack, (__cs3_region_start_ram + __cs3_region_size_ram))
+                0x10007ffc                _stack_top = 0x10007ffc
+                0x00006000                . = 0x6000
+
+.text           0x00006000     0x6dbc
+ CREATE_OBJECT_SYMBOLS
+                0x00006000                __cs3_region_start_rom = .
+ *(.cs3.region-head.rom)
+                0x00006001                ASSERT ((. == __cs3_region_start_rom), .cs3.region-head.rom not permitted)
+ *(.vectors)
+ .vectors       0x00006000       0xcc /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(startup_LPC17xx.o)
+                0x00006000                _vectors
+ *(.reset)
+ .reset         0x000060cc       0x44 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(startup_LPC17xx.o)
+                0x000060cc                Reset_Handler
+ *(.text.cs3.init)
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x00006110      0x568 main.o
+                0x00006110                ext_adc_setup
+                0x0000617c                ui_setup
+                0x000061d4                ui_set
+                0x00006250                servo_steer
+                0x000062a0                servo_setup
+                0x000062f4                motor_speed
+                0x0000633c                motor_brake
+                0x00006384                rgb_set
+                0x000063ec                rgb_setup
+                0x00006434                mux_setup
+                0x00006464                mux_set
+                0x00006484                motor_setup
+                0x00006510                EINT3_IRQHandler
+                0x00006538                main
+ .text          0x00006678        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o)
+ .text._printf_r
+                0x00006678       0x26 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o)
+                0x00006678                _printf_r
+ *fill*         0x0000669e        0x2 00
+ .text.printf   0x000066a0       0x30 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o)
+                0x000066a0                printf
+ .text          0x000066d0        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+ .text._vfprintf_r
+                0x000066d0     0x11d4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+                0x000066d0                _vfprintf_r
+ .text.vfprintf
+                0x000078a4       0x1c /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+                0x000078a4                vfprintf
+ .text          0x000078c0        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+ .text.__swsetup_r
+                0x000078c0       0xdc /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+                0x000078c0                __swsetup_r
+ .text          0x0000799c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+ .text.quorem   0x0000799c      0x124 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+ .text._dtoa_r  0x00007ac0      0xc08 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+                0x00007ac0                _dtoa_r
+ .text          0x000086c8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+ .text._fflush_r
+                0x000086c8      0x174 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+                0x000086c8                _fflush_r
+ .text.fflush   0x0000883c       0x24 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+                0x0000883c                fflush
+ .text          0x00008860        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .text.__fp_lock
+                0x00008860        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .text.__fp_unlock
+                0x00008864        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .text._cleanup_r
+                0x00008868        0xc /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x00008868                _cleanup_r
+ .text.std.clone.0
+                0x00008874       0x48 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .text.__sfmoreglue
+                0x000088bc       0x28 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x000088bc                __sfmoreglue
+ .text._cleanup
+                0x000088e4        0xc /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x000088e4                _cleanup
+ .text.__sinit  0x000088f0       0x5c /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x000088f0                __sinit
+ .text.__sfp    0x0000894c       0x78 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x0000894c                __sfp
+ .text.__sfp_lock_acquire
+                0x000089c4        0x2 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x000089c4                __sfp_lock_acquire
+ .text.__sfp_lock_release
+                0x000089c6        0x2 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x000089c6                __sfp_lock_release
+ .text.__sinit_lock_acquire
+                0x000089c8        0x2 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x000089c8                __sinit_lock_acquire
+ .text.__sinit_lock_release
+                0x000089ca        0x2 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x000089ca                __sinit_lock_release
+ .text.__fp_lock_all
+                0x000089cc       0x14 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x000089cc                __fp_lock_all
+ .text.__fp_unlock_all
+                0x000089e0       0x14 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x000089e0                __fp_unlock_all
+ .text          0x000089f4        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+ .text._malloc_trim_r
+                0x000089f4       0x98 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+                0x000089f4                _malloc_trim_r
+ .text._free_r  0x00008a8c      0x180 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+                0x00008a8c                _free_r
+ .text          0x00008c0c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+ .text._fwalk   0x00008c0c       0x44 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+                0x00008c0c                _fwalk
+ .text._fwalk_reent
+                0x00008c50       0x48 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+                0x00008c50                _fwalk_reent
+ .text          0x00008c98        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+ .text          0x00008c98        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .text._setlocale_r
+                0x00008c98       0x44 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                0x00008c98                _setlocale_r
+ .text.__locale_charset
+                0x00008cdc        0x8 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                0x00008cdc                __locale_charset
+ .text.__locale_mb_cur_max
+                0x00008ce4        0xc /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                0x00008ce4                __locale_mb_cur_max
+ .text.__locale_msgcharset
+                0x00008cf0        0x8 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                0x00008cf0                __locale_msgcharset
+ .text.__locale_cjk_lang
+                0x00008cf8        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                0x00008cf8                __locale_cjk_lang
+ .text._localeconv_r
+                0x00008cfc        0x8 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                0x00008cfc                _localeconv_r
+ .text.setlocale
+                0x00008d04       0x14 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                0x00008d04                setlocale
+ .text.localeconv
+                0x00008d18        0x8 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                0x00008d18                localeconv
+ .text          0x00008d20        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+ .text.__smakebuf_r
+                0x00008d20       0xe0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+                0x00008d20                __smakebuf_r
+ .text          0x00008e00        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-malloc.o)
+ .text.malloc   0x00008e00       0x10 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-malloc.o)
+                0x00008e00                malloc
+ .text.free     0x00008e10       0x10 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-malloc.o)
+                0x00008e10                free
+ .text          0x00008e20        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+ .text._malloc_r
+                0x00008e20      0x418 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                0x00008e20                _malloc_r
+ .text          0x00009238        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+ .text.memchr   0x00009238       0x1c /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+                0x00009238                memchr
+ .text          0x00009254        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .text.memcpy   0x00009254       0x16 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+                0x00009254                memcpy
+ .text          0x0000926a        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .text.memset   0x0000926a       0x10 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+                0x0000926a                memset
+ .text          0x0000927a        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+ .text.__malloc_lock
+                0x0000927a        0x2 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+                0x0000927a                __malloc_lock
+ .text.__malloc_unlock
+                0x0000927c        0x2 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+                0x0000927c                __malloc_unlock
+ .text          0x0000927e        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+ .text._Balloc  0x0000927e       0x62 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x0000927e                _Balloc
+ .text._Bfree   0x000092e0       0x2e /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x000092e0                _Bfree
+ .text.__multadd
+                0x0000930e       0x7c /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x0000930e                __multadd
+ .text.__s2b    0x0000938a       0x7c /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x0000938a                __s2b
+ .text.__hi0bits
+                0x00009406       0x40 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x00009406                __hi0bits
+ .text.__lo0bits
+                0x00009446       0x64 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x00009446                __lo0bits
+ .text.__i2b    0x000094aa       0x12 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x000094aa                __i2b
+ .text.__multiply
+                0x000094bc      0x124 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x000094bc                __multiply
+ .text.__pow5mult
+                0x000095e0       0xa4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x000095e0                __pow5mult
+ .text.__lshift
+                0x00009684       0x98 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x00009684                __lshift
+ .text.__mcmp   0x0000971c       0x3a /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x0000971c                __mcmp
+ .text.__mdiff  0x00009756       0xc6 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x00009756                __mdiff
+ .text.__ulp    0x0000981c       0x40 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x0000981c                __ulp
+ .text.__b2d    0x0000985c       0xa4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x0000985c                __b2d
+ .text.__d2b    0x00009900       0xbc /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x00009900                __d2b
+ .text.__ratio  0x000099bc       0x46 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x000099bc                __ratio
+ *fill*         0x00009a02        0x2 00
+ .text._mprec_log10
+                0x00009a04       0x34 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x00009a04                _mprec_log10
+ .text.__copybits
+                0x00009a38       0x32 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x00009a38                __copybits
+ .text.__any_on
+                0x00009a6a       0x4a /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x00009a6a                __any_on
+ .text          0x00009ab4        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-s_fpclassify.o)
+ .text.__fpclassifyd
+                0x00009ab4       0x64 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-s_fpclassify.o)
+                0x00009ab4                __fpclassifyd
+ .text          0x00009b18        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+ .text._sbrk_r  0x00009b18       0x24 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+                0x00009b18                _sbrk_r
+ .text          0x00009b3c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+ .text.__sread  0x00009b3c       0x22 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+                0x00009b3c                __sread
+ .text.__seofread
+                0x00009b5e        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+                0x00009b5e                __seofread
+ .text.__swrite
+                0x00009b62       0x3a /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+                0x00009b62                __swrite
+ .text.__sseek  0x00009b9c       0x26 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+                0x00009b9c                __sseek
+ .text.__sclose
+                0x00009bc2        0x8 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+                0x00009bc2                __sclose
+ .text          0x00009bca        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+ .text.strcmp   0x00009bca       0x16 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+                0x00009bca                strcmp
+ .text          0x00009be0        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+ .text.strlen   0x00009be0       0x10 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+                0x00009be0                strlen
+ .text          0x00009bf0        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+ .text.__sprint_r
+                0x00009bf0       0x74 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+                0x00009bf0                __sprint_r
+ .text._vfiprintf_r
+                0x00009c64      0x918 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+                0x00009c64                _vfiprintf_r
+ .text.vfiprintf
+                0x0000a57c       0x1c /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+                0x0000a57c                vfiprintf
+ .text          0x0000a598        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+ .text._write_r
+                0x0000a598       0x28 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+                0x0000a598                _write_r
+ .text          0x0000a5c0        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-callocr.o)
+ .text._calloc_r
+                0x0000a5c0       0x58 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-callocr.o)
+                0x0000a5c0                _calloc_r
+ .text          0x0000a618        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+ .text._close_r
+                0x0000a618       0x24 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+                0x0000a618                _close_r
+ .text          0x0000a63c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+ .text._fclose_r
+                0x0000a63c       0xac /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                0x0000a63c                _fclose_r
+ .text.fclose   0x0000a6e8       0x10 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                0x0000a6e8                fclose
+ .text          0x0000a6f8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+ .text._fputwc_r
+                0x0000a6f8       0xbe /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+                0x0000a6f8                _fputwc_r
+ *fill*         0x0000a7b6        0x2 00
+ .text.fputwc   0x0000a7b8       0x54 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+                0x0000a7b8                fputwc
+ .text          0x0000a80c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+ .text._fstat_r
+                0x0000a80c       0x24 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+                0x0000a80c                _fstat_r
+ .text          0x0000a830        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+ .text.__sfvwrite_r
+                0x0000a830      0x296 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+                0x0000a830                __sfvwrite_r
+ .text          0x0000aac6        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+ *fill*         0x0000aac6        0x2 00
+ .text._isatty_r
+                0x0000aac8       0x24 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+                0x0000aac8                _isatty_r
+ .text          0x0000aaec        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+ .text._lseek_r
+                0x0000aaec       0x28 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+                0x0000aaec                _lseek_r
+ .text          0x0000ab14        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+ .text.memmove  0x0000ab14       0x30 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+                0x0000ab14                memmove
+ .text          0x0000ab44        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+ .text._read_r  0x0000ab44       0x28 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+                0x0000ab44                _read_r
+ .text          0x0000ab6c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+ .text._realloc_r
+                0x0000ab6c      0x2f8 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+                0x0000ab6c                _realloc_r
+ .text          0x0000ae64        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x0000ae64       0x1a /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+                0x0000ae64                cleanup_glue
+ *fill*         0x0000ae7e        0x2 00
+ .text._reclaim_reent
+                0x0000ae80       0xb4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+                0x0000ae80                _reclaim_reent
+ .text._wrapup_reent
+                0x0000af34       0x34 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+                0x0000af34                _wrapup_reent
+ .text          0x0000af68        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+ .text.__swbuf_r
+                0x0000af68       0xcc /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+                0x0000af68                __swbuf_r
+ .text.__swbuf  0x0000b034       0x14 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+                0x0000b034                __swbuf
+ .text          0x0000b048        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+ .text._wcrtomb_r
+                0x0000b048       0x50 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+                0x0000b048                _wcrtomb_r
+ .text.wcrtomb  0x0000b098       0x1c /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+                0x0000b098                wcrtomb
+ .text          0x0000b0b4        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+ .text.__ascii_wctomb
+                0x0000b0b4       0x1a /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+                0x0000b0b4                __ascii_wctomb
+ *fill*         0x0000b0ce        0x2 00
+ .text._wctomb_r
+                0x0000b0d0       0x2c /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+                0x0000b0d0                _wctomb_r
+ .text          0x0000b0fc      0x104 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(syscalls.o)
+                0x0000b0fc                _sbrk
+                0x0000b120                _read
+                0x0000b16c                _write
+ .text          0x0000b200        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(startup_LPC17xx.o)
+                0x0000b200                SysTick_Handler
+                0x0000b202                RIT_IRQHandler
+                0x0000b202                I2C0_IRQHandler
+                0x0000b202                USBActivity_IRQHandler
+                0x0000b202                PWM1_IRQHandler
+                0x0000b202                I2C1_IRQHandler
+                0x0000b202                EINT2_IRQHandler
+                0x0000b202                UART1_IRQHandler
+                0x0000b202                CANActivity_IRQHandler
+                0x0000b202                UART0_IRQHandler
+                0x0000b202                PLL0_IRQHandler
+                0x0000b202                CAN_IRQHandler
+                0x0000b202                PLL1_IRQHandler
+                0x0000b202                SSP0_IRQHandler
+                0x0000b202                I2S_IRQHandler
+                0x0000b202                I2C2_IRQHandler
+                0x0000b202                RTC_IRQHandler
+                0x0000b202                TIMER0_IRQHandler
+                0x0000b202                SPI_IRQHandler
+                0x0000b202                EINT1_IRQHandler
+                0x0000b202                TIMER1_IRQHandler
+                0x0000b202                UART2_IRQHandler
+                0x0000b202                Default_Handler
+                0x0000b202                ADC_IRQHandler
+                0x0000b202                SSP1_IRQHandler
+                0x0000b202                BOD_IRQHandler
+                0x0000b202                WDT_IRQHandler
+                0x0000b202                QEI_IRQHandler
+                0x0000b202                EINT0_IRQHandler
+                0x0000b202                DMA_IRQHandler
+                0x0000b202                UART3_IRQHandler
+                0x0000b202                MCPWM_IRQHandler
+                0x0000b202                TIMER2_IRQHandler
+                0x0000b202                ENET_IRQHandler
+ .text          0x0000b204       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(stubs.o)
+                0x0000b204                _open
+                0x0000b208                __write
+                0x0000b20c                __read
+                0x0000b210                _close
+                0x0000b214                _lseek
+                0x0000b218                _fstat
+                0x0000b21c                _isatty
+                0x0000b220                ioctl
+ .text          0x0000b224        0x8 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(system_LPC17xx.o)
+                0x0000b224                SystemCoreClockUpdate
+                0x0000b228                SystemInit
+ .text          0x0000b22c      0x264 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/liblpc17xx.lpc17xx.a(openlpc.o)
+                0x0000b2e0                openlpc_init
+                0x0000b344                millis
+                0x0000b35c                submillis
+                0x0000b368                delay_subms
+                0x0000b394                delay_ms
+                0x0000b39c                set_interval
+                0x0000b3a0                clear_interval
+                0x0000b46c                TIMER3_IRQHandler
+                0x0000b488                set_timeout
+                0x0000b48c                clear_timeout
+ .text          0x0000b490      0x278 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivsi3.o)
+                0x0000b490                __udivsi3
+                0x0000b490                __aeabi_uidiv
+                0x0000b6ec                __aeabi_uidivmod
+ .text          0x0000b708      0x2b0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divsi3.o)
+                0x0000b708                __aeabi_idiv
+                0x0000b708                __divsi3
+                0x0000b99c                __aeabi_idivmod
+ .text          0x0000b9b8        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_dvmd_tls.o)
+                0x0000b9b8                __aeabi_ldiv0
+                0x0000b9b8                __aeabi_idiv0
+ .text          0x0000b9bc      0x370 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_addsubdf3.o)
+                0x0000b9bc                __aeabi_drsub
+                0x0000b9c4                __subdf3
+                0x0000b9c4                __aeabi_dsub
+                0x0000b9c8                __aeabi_dadd
+                0x0000b9c8                __adddf3
+                0x0000bc40                __aeabi_ui2d
+                0x0000bc40                __floatunsidf
+                0x0000bc60                __floatsidf
+                0x0000bc60                __aeabi_i2d
+                0x0000bc84                __extendsfdf2
+                0x0000bc84                __aeabi_f2d
+                0x0000bcc0                __aeabi_ul2d
+                0x0000bcc0                __floatundidf
+                0x0000bcd0                __aeabi_l2d
+                0x0000bcd0                __floatdidf
+ .text          0x0000bd2c      0x424 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_muldivdf3.o)
+                0x0000bd2c                __aeabi_dmul
+                0x0000bd2c                __muldf3
+                0x0000bf80                __aeabi_ddiv
+                0x0000bf80                __divdf3
+ .text          0x0000c150      0x110 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_cmpdf2.o)
+                0x0000c150                __gtdf2
+                0x0000c150                __gedf2
+                0x0000c158                __ltdf2
+                0x0000c158                __ledf2
+                0x0000c160                __eqdf2
+                0x0000c160                __nedf2
+                0x0000c160                __cmpdf2
+                0x0000c1dc                __aeabi_cdrcmple
+                0x0000c1ec                __aeabi_cdcmple
+                0x0000c1ec                __aeabi_cdcmpeq
+                0x0000c1fc                __aeabi_dcmpeq
+                0x0000c210                __aeabi_dcmplt
+                0x0000c224                __aeabi_dcmple
+                0x0000c238                __aeabi_dcmpge
+                0x0000c24c                __aeabi_dcmpgt
+ .text          0x0000c260       0x50 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixdfsi.o)
+                0x0000c260                __fixdfsi
+                0x0000c260                __aeabi_d2iz
+ .text          0x0000c2b0       0x40 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixunsdfsi.o)
+                0x0000c2b0                __fixunsdfsi
+                0x0000c2b0                __aeabi_d2uiz
+ .text          0x0000c2f0      0x2a0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_muldivsf3.o)
+                0x0000c2f0                __mulsf3
+                0x0000c2f0                __aeabi_fmul
+                0x0000c458                __divsf3
+                0x0000c458                __aeabi_fdiv
+ .text          0x0000c590       0xec /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_cmpsf2.o)
+                0x0000c590                __gesf2
+                0x0000c590                __gtsf2
+                0x0000c598                __ltsf2
+                0x0000c598                __lesf2
+                0x0000c5a0                __nesf2
+                0x0000c5a0                __eqsf2
+                0x0000c5a0                __cmpsf2
+                0x0000c600                __aeabi_cfrcmple
+                0x0000c608                __aeabi_cfcmpeq
+                0x0000c608                __aeabi_cfcmple
+                0x0000c618                __aeabi_fcmpeq
+                0x0000c62c                __aeabi_fcmplt
+                0x0000c640                __aeabi_fcmple
+                0x0000c654                __aeabi_fcmpge
+                0x0000c668                __aeabi_fcmpgt
+ .text          0x0000c67c       0x4c /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixsfsi.o)
+                0x0000c67c                __fixsfsi
+                0x0000c67c                __aeabi_f2iz
+ .text          0x0000c6c8       0x2c /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_aeabi_uldivmod.o)
+                0x0000c6c8                __aeabi_uldivmod
+ .text          0x0000c6f4       0x60 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(bpabi.o)
+                0x0000c6f4                __gnu_ldivmod_helper
+                0x0000c724                __gnu_uldivmod_helper
+ .text          0x0000c754      0x360 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divdi3.o)
+                0x0000c754                __divdi3
+ .text          0x0000cab4      0x308 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivdi3.o)
+                0x0000cab4                __udivdi3
+ *(.plt)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab.reset
+                0x0000cdbc        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(startup_LPC17xx.o)
+ .ARM.extab     0x0000cdbc        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divdi3.o)
+ .ARM.extab     0x0000cdbc        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivdi3.o)
+ *(.gcc_except_table)
+
+.v4_bx          0x0000cdbc        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+                0x0000cdbc                PROVIDE (__exidx_start, .)
+
+.ARM.exidx      0x0000cdbc        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx.reset
+                0x0000cdbc        0x8 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(startup_LPC17xx.o)
+ .ARM.exidx     0x0000cdc4        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divdi3.o)
+                                  0x8 (size before relaxing)
+ .ARM.exidx     0x0000cdc4        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivdi3.o)
+                                  0x8 (size before relaxing)
+                0x0000cdc4                PROVIDE (__exidx_end, .)
+
+.rodata         0x0000cdc8      0x240
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x0000cdc8       0x10 main.o
+ .rodata.blanks.6613
+                0x0000cdd8       0x10 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+ .rodata.str1.1
+                0x0000cde8       0x34 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+ .rodata.zeroes.6614
+                0x0000ce1c       0x10 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+ .rodata.str1.1
+                0x0000ce2c        0xd /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+                                  0xf (size before relaxing)
+ *fill*         0x0000ce39        0x3 00
+ .rodata.__sf_fake_stdin
+                0x0000ce3c       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x0000ce3c                __sf_fake_stdin
+ .rodata.__sf_fake_stdout
+                0x0000ce5c       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x0000ce5c                __sf_fake_stdout
+ .rodata.__sf_fake_stderr
+                0x0000ce7c       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x0000ce7c                __sf_fake_stderr
+ .rodata.str1.1
+                0x0000ce9c        0x2 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+ *fill*         0x0000ce9e        0x2 00
+ .rodata._global_impure_ptr
+                0x0000cea0        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+                0x0000cea0                _global_impure_ptr
+ .rodata.str1.1
+                0x0000cea4        0x8 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                                  0xb (size before relaxing)
+ .rodata.p05.5124
+                0x0000ceac        0xc /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+ .rodata.__mprec_tens
+                0x0000ceb8       0xc8 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x0000ceb8                __mprec_tens
+ .rodata.__mprec_bigtens
+                0x0000cf80       0x28 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x0000cf80                __mprec_bigtens
+ .rodata.__mprec_tinytens
+                0x0000cfa8       0x28 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+                0x0000cfa8                __mprec_tinytens
+ .rodata.blanks.6556
+                0x0000cfd0       0x10 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+ .rodata.str1.1
+                0x00000000       0x22 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+ .rodata.zeroes.6557
+                0x0000cfe0       0x10 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+                0x0000cff0                . = ALIGN (0x4)
+ *(.init)
+                0x0000cff0                . = ALIGN (0x4)
+                0x0000cff0                __preinit_array_start = .
+ *(.preinit_array)
+                0x0000cff0                __preinit_array_end = .
+                0x0000cff0                . = ALIGN (0x4)
+                0x0000cff0                __init_array_start = .
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x0000cff0                __init_array_end = .
+                0x0000cff0                . = ALIGN (0x4)
+ *(.fini)
+                0x0000cff0                . = ALIGN (0x4)
+                0x0000cff0                __fini_array_start = .
+ *(.fini_array)
+ *(SORT(.fini_array.*))
+                0x0000cff0                __fini_array_end = .
+                0x0000cff0                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+                0x0000cff0                . = ALIGN (0x4)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+                0x0000cff0                . = ALIGN (0x4)
+                0x0000cff0                __cs3_regions = .
+                0x0000cff0        0x4 LONG 0x0
+                0x0000cff4        0x4 LONG 0xd008 __cs3_region_init_ram
+                0x0000cff8        0x4 LONG 0x10000000 __cs3_region_start_ram
+                0x0000cffc        0x4 LONG 0x590 __cs3_region_init_size_ram
+                0x0000d000        0x4 LONG 0x78 __cs3_region_zero_size_ram
+                0x0000d004                __cs3_regions_end = .
+                0x0000d008                . = ALIGN (0x8)
+ *fill*         0x0000d004        0x4 00
+ *(.rom)
+ *(.rom.b .bss.rom)
+                0x0000d008                _etext = .
+                0x00080000                __cs3_region_end_rom = (__cs3_region_start_rom + 0x7a000)
+                0x0007a000                __cs3_region_size_rom = 0x7a000
+
+.data           0x10000000      0x590 load address 0x0000d008
+                0x10000000                _data = .
+                0x10000000                __cs3_region_start_ram = .
+ *(.cs3.region-head.ram)
+ *(.jcr)
+ *(.got.plt)
+ *(.got)
+ *(.shdata)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x10000000        0x0 main.o
+ .data          0x10000000        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o)
+ .data          0x10000000        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+ .data          0x10000000        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+ .data          0x10000000        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+ .data          0x10000000        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+ .data          0x10000000        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .data          0x10000000        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+ .data          0x10000000        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+ .data          0x10000000        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+ .data.impure_data
+                0x10000000       0xf0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x100000f0        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+                0x100000f0                _impure_ptr
+ .data          0x100000f4        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .data.lc_message_charset
+                0x100000f4       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .data.lconv    0x10000114       0x38 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .data.lc_ctype_charset
+                0x1000014c       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .data.__mb_cur_max
+                0x1000016c        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                0x1000016c                __mb_cur_max
+ .data          0x10000170        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+ .data          0x10000170        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-malloc.o)
+ .data          0x10000170        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+ .data.__malloc_av_
+                0x10000170      0x408 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                0x10000170                __malloc_av_
+ .data.__malloc_trim_threshold
+                0x10000578        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                0x10000578                __malloc_trim_threshold
+ .data.__malloc_sbrk_base
+                0x1000057c        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                0x1000057c                __malloc_sbrk_base
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-s_fpclassify.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-callocr.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+ .data          0x10000580        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+ .data.__wctomb
+                0x10000580        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+                0x10000580                __wctomb
+ .data          0x10000584        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(syscalls.o)
+ .data          0x10000588        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(startup_LPC17xx.o)
+ .data          0x10000588        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(stubs.o)
+ .data          0x10000588        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(system_LPC17xx.o)
+                0x10000588                SystemCoreClock
+ .data          0x1000058c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/liblpc17xx.lpc17xx.a(openlpc.o)
+ .data          0x1000058c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivsi3.o)
+ .data          0x1000058c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divsi3.o)
+ .data          0x1000058c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_dvmd_tls.o)
+ .data          0x1000058c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_addsubdf3.o)
+ .data          0x1000058c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_muldivdf3.o)
+ .data          0x1000058c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_cmpdf2.o)
+ .data          0x1000058c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixdfsi.o)
+ .data          0x1000058c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixunsdfsi.o)
+ .data          0x1000058c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_muldivsf3.o)
+ .data          0x1000058c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_cmpsf2.o)
+ .data          0x1000058c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixsfsi.o)
+ .data          0x1000058c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x1000058c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(bpabi.o)
+ .data          0x1000058c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divdi3.o)
+ .data          0x1000058c        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivdi3.o)
+                0x10000590                . = ALIGN (0x8)
+ *fill*         0x1000058c        0x4 00
+ *(.ram)
+                0x10000590                _edata = .
+
+.bss            0x10000590       0x78 load address 0x0000d598
+                0x10000590                _bss = .
+ *(.shbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x10000590        0x8 main.o
+                0x10000590                debounce
+                0x10000594                pause
+ .bss           0x10000598        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o)
+ .bss           0x10000598        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+ .bss           0x10000598        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+ .bss           0x10000598        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+ .bss           0x10000598        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+ .bss           0x10000598        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .bss           0x10000598        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+ .bss           0x10000598        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+ .bss           0x10000598        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+ .bss           0x10000598        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .bss._PathLocale
+                0x10000598        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                0x10000598                _PathLocale
+ .bss.__nlocale_changed
+                0x1000059c        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                0x1000059c                __nlocale_changed
+ .bss.__mlocale_changed
+                0x100005a0        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                0x100005a0                __mlocale_changed
+ .bss           0x100005a4        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+ .bss           0x100005a4        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-malloc.o)
+ .bss           0x100005a4        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+ .bss.__malloc_max_total_mem
+                0x100005a4        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                0x100005a4                __malloc_max_total_mem
+ .bss.__malloc_max_sbrked_mem
+                0x100005a8        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                0x100005a8                __malloc_max_sbrked_mem
+ .bss.__malloc_top_pad
+                0x100005ac        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                0x100005ac                __malloc_top_pad
+ .bss.__malloc_current_mallinfo
+                0x100005b0       0x28 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                0x100005b0                __malloc_current_mallinfo
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-s_fpclassify.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-callocr.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+ .bss           0x100005d8        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+ .bss           0x100005d8        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(syscalls.o)
+ .bss           0x100005dc        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(startup_LPC17xx.o)
+ .bss           0x100005dc        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(stubs.o)
+ .bss           0x100005dc        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(system_LPC17xx.o)
+ .bss           0x100005dc       0x24 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/liblpc17xx.lpc17xx.a(openlpc.o)
+ .bss           0x10000600        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivsi3.o)
+ .bss           0x10000600        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divsi3.o)
+ .bss           0x10000600        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_dvmd_tls.o)
+ .bss           0x10000600        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x10000600        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x10000600        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x10000600        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixdfsi.o)
+ .bss           0x10000600        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixunsdfsi.o)
+ .bss           0x10000600        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_muldivsf3.o)
+ .bss           0x10000600        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_cmpsf2.o)
+ .bss           0x10000600        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixsfsi.o)
+ .bss           0x10000600        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x10000600        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(bpabi.o)
+ .bss           0x10000600        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divdi3.o)
+ .bss           0x10000600        0x0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivdi3.o)
+ *(COMMON)
+ COMMON         0x10000600        0x4 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+                0x10000600                errno
+                0x10000608                . = ALIGN (0x8)
+ *fill*         0x10000604        0x4 00
+ *(.ram.b .bss.ram)
+                0x10000608                _end = .
+                0x10000608                __end = .
+                0x10008000                __cs3_region_end_ram = (__cs3_region_start_ram + 0x8000)
+                0x00008000                __cs3_region_size_ram = 0x8000
+                0x0000d008                __cs3_region_init_ram = LOADADDR (.data)
+                0x00000590                __cs3_region_init_size_ram = (_edata - ADDR (.data))
+                0x00000078                __cs3_region_zero_size_ram = (_end - _edata)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.comment        0x00000000       0x3c
+ .comment       0x00000000       0x2a main.o
+                                 0x2b (size before relaxing)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-malloc.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-s_fpclassify.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-callocr.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+ .comment       0x0000002a       0x12 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(syscalls.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(system_LPC17xx.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/liblpc17xx.lpc17xx.a(openlpc.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(bpabi.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divdi3.o)
+ .comment       0x00000000       0x2b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivdi3.o)
+
+.debug_aranges  0x00000000      0x1e0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x00000020       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divsi3.o)
+ .debug_aranges
+                0x00000040       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_dvmd_tls.o)
+ .debug_aranges
+                0x00000060       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_addsubdf3.o)
+ .debug_aranges
+                0x00000080       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_muldivdf3.o)
+ .debug_aranges
+                0x000000a0       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_cmpdf2.o)
+ .debug_aranges
+                0x000000c0       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixdfsi.o)
+ .debug_aranges
+                0x000000e0       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixunsdfsi.o)
+ .debug_aranges
+                0x00000100       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_muldivsf3.o)
+ .debug_aranges
+                0x00000120       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_cmpsf2.o)
+ .debug_aranges
+                0x00000140       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixsfsi.o)
+ .debug_aranges
+                0x00000160       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_aeabi_uldivmod.o)
+ .debug_aranges
+                0x00000180       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(bpabi.o)
+ .debug_aranges
+                0x000001a0       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divdi3.o)
+ .debug_aranges
+                0x000001c0       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivdi3.o)
+
+.debug_pubnames
+                0x00000000       0x84
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x45 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(bpabi.o)
+ .debug_pubnames
+                0x00000045       0x1f /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divdi3.o)
+ .debug_pubnames
+                0x00000064       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivdi3.o)
+
+.debug_info     0x00000000     0x1611
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0xb2 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivsi3.o)
+ .debug_info    0x000000b2       0xb2 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divsi3.o)
+ .debug_info    0x00000164       0xb2 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x00000216       0xb1 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_addsubdf3.o)
+ .debug_info    0x000002c7       0xb1 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_muldivdf3.o)
+ .debug_info    0x00000378       0xb1 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_cmpdf2.o)
+ .debug_info    0x00000429       0xb1 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixdfsi.o)
+ .debug_info    0x000004da       0xb1 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixunsdfsi.o)
+ .debug_info    0x0000058b       0xb1 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_muldivsf3.o)
+ .debug_info    0x0000063c       0xb1 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_cmpsf2.o)
+ .debug_info    0x000006ed       0xb1 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixsfsi.o)
+ .debug_info    0x0000079e       0xac /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_aeabi_uldivmod.o)
+ .debug_info    0x0000084a       0xf0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(bpabi.o)
+ .debug_info    0x0000093a      0x68c /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divdi3.o)
+ .debug_info    0x00000fc6      0x64b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivdi3.o)
+
+.debug_abbrev   0x00000000      0x413
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x14 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x00000014       0x14 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divsi3.o)
+ .debug_abbrev  0x00000028       0x14 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x0000003c       0x14 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_addsubdf3.o)
+ .debug_abbrev  0x00000050       0x14 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_muldivdf3.o)
+ .debug_abbrev  0x00000064       0x14 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_cmpdf2.o)
+ .debug_abbrev  0x00000078       0x14 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixdfsi.o)
+ .debug_abbrev  0x0000008c       0x14 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixunsdfsi.o)
+ .debug_abbrev  0x000000a0       0x14 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_muldivsf3.o)
+ .debug_abbrev  0x000000b4       0x14 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_cmpsf2.o)
+ .debug_abbrev  0x000000c8       0x14 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixsfsi.o)
+ .debug_abbrev  0x000000dc       0x14 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_aeabi_uldivmod.o)
+ .debug_abbrev  0x000000f0       0x6e /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(bpabi.o)
+ .debug_abbrev  0x0000015e      0x162 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divdi3.o)
+ .debug_abbrev  0x000002c0      0x153 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivdi3.o)
+
+.debug_line     0x00000000      0xc96
+ *(.debug_line)
+ .debug_line    0x00000000       0x85 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivsi3.o)
+ .debug_line    0x00000085       0x96 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divsi3.o)
+ .debug_line    0x0000011b       0x62 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x0000017d      0x1fe /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_addsubdf3.o)
+ .debug_line    0x0000037b      0x21b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_muldivdf3.o)
+ .debug_line    0x00000596      0x101 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_cmpdf2.o)
+ .debug_line    0x00000697       0x79 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixdfsi.o)
+ .debug_line    0x00000710       0x75 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixunsdfsi.o)
+ .debug_line    0x00000785      0x13c /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_muldivsf3.o)
+ .debug_line    0x000008c1       0xf5 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_cmpsf2.o)
+ .debug_line    0x000009b6       0x79 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixsfsi.o)
+ .debug_line    0x00000a2f       0x64 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line    0x00000a93       0x64 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(bpabi.o)
+ .debug_line    0x00000af7       0xd9 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divdi3.o)
+ .debug_line    0x00000bd0       0xc6 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivdi3.o)
+
+.debug_frame    0x00000000      0x100
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000020       0x20 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divsi3.o)
+ .debug_frame   0x00000040       0x50 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(bpabi.o)
+ .debug_frame   0x00000090       0x38 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divdi3.o)
+ .debug_frame   0x000000c8       0x38 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivdi3.o)
+
+.debug_str      0x00000000      0x1e9
+ *(.debug_str)
+ .debug_str     0x00000000       0xf2 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(bpabi.o)
+ .debug_str     0x000000f2       0xed /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divdi3.o)
+                                0x1c0 (size before relaxing)
+ .debug_str     0x000001df        0xa /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivdi3.o)
+                                0x1c1 (size before relaxing)
+
+.debug_loc      0x00000000     0x15fd
+ *(.debug_loc)
+ .debug_loc     0x00000000       0xa0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(bpabi.o)
+ .debug_loc     0x000000a0      0xaf2 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divdi3.o)
+ .debug_loc     0x00000b92      0xa6b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivdi3.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_ranges   0x00000000      0x188
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0xc0 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divdi3.o)
+ .debug_ranges  0x000000c0       0xc8 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivdi3.o)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+.ARM.attributes
+                0x00000000       0x2f
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x31 main.o
+ .ARM.attributes
+                0x00000031       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-printf.o)
+ .ARM.attributes
+                0x0000005a       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfprintf.o)
+ .ARM.attributes
+                0x00000083       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+ .ARM.attributes
+                0x000000ac       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-dtoa.o)
+ .ARM.attributes
+                0x000000d5       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+ .ARM.attributes
+                0x000000fe       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .ARM.attributes
+                0x00000127       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+ .ARM.attributes
+                0x00000150       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+ .ARM.attributes
+                0x00000179       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000001a2       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .ARM.attributes
+                0x000001cb       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+ .ARM.attributes
+                0x000001f4       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x0000021d       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x00000246       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+ .ARM.attributes
+                0x0000026f       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000298       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000002c1       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x000002ea       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mprec.o)
+ .ARM.attributes
+                0x00000313       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-s_fpclassify.o)
+ .ARM.attributes
+                0x0000033c       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000365       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+ .ARM.attributes
+                0x0000038e       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x000003b7       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x000003e0       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+ .ARM.attributes
+                0x00000409       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+ .ARM.attributes
+                0x00000432       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-callocr.o)
+ .ARM.attributes
+                0x0000045b       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+ .ARM.attributes
+                0x00000484       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+ .ARM.attributes
+                0x000004ad       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+ .ARM.attributes
+                0x000004d6       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+ .ARM.attributes
+                0x000004ff       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+ .ARM.attributes
+                0x00000528       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+ .ARM.attributes
+                0x00000551       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+ .ARM.attributes
+                0x0000057a       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x000005a3       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+ .ARM.attributes
+                0x000005cc       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+ .ARM.attributes
+                0x000005f5       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+ .ARM.attributes
+                0x0000061e       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+ .ARM.attributes
+                0x00000647       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+ .ARM.attributes
+                0x00000670       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+ .ARM.attributes
+                0x00000699       0x31 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(syscalls.o)
+ .ARM.attributes
+                0x000006ca       0x1b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(startup_LPC17xx.o)
+ .ARM.attributes
+                0x000006e5       0x1b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(stubs.o)
+ .ARM.attributes
+                0x00000700       0x31 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libstartup.lpc17xx.a(system_LPC17xx.o)
+ .ARM.attributes
+                0x00000731       0x31 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/liblpc17xx.lpc17xx.a(openlpc.o)
+ .ARM.attributes
+                0x00000762       0x1b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000077d       0x1b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000798       0x1b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000007b3       0x1b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x000007ce       0x1b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x000007e9       0x1b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x00000804       0x1b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x0000081f       0x1b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixunsdfsi.o)
+ .ARM.attributes
+                0x0000083a       0x1b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x00000855       0x1b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_cmpsf2.o)
+ .ARM.attributes
+                0x00000870       0x1b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_arm_fixsfsi.o)
+ .ARM.attributes
+                0x0000088b       0x1b /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x000008a6       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x000008cf       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x000008f8       0x29 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivdi3.o)
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(viacar.lpc17xx.elf elf32-littlearm)
+
+.debug_pubtypes
+                0x00000000       0xb2
+ .debug_pubtypes
+                0x00000000       0x59 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_divdi3.o)
+ .debug_pubtypes
+                0x00000059       0x59 /Applications/openlpc/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a(_udivdi3.o)

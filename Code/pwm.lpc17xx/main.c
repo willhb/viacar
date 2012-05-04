@@ -26,20 +26,20 @@ int servo_steer(float value){
 	//max = 452
 	// min = 226
 	
-	LPC_PWM1->MR4 = 4310 + 226 + servo_set;	//Add to the minimum servo value.
-	LPC_PWM1->LER |= (1<<4);			//Load enable Match register 4 (MR4), sets the new value. 
+	LPC_PWM1->MR1 = 4310 + 226 + servo_set;	//Add to the minimum servo value.
+	LPC_PWM1->LER |= (1<<1);			//Load enable Match register 4 (MR4), sets the new value. 
 	return 0;	
 }
 
 void servo_setup(void){
 	LPC_SC->PCONP |= 1<<6; 				//Turn on PWM
 	LPC_SC->PCLKSEL0 |= (1<<12)|(1<<13);// PWM pclock/8
-	LPC_PINCON->PINSEL4 |= (1<<6); 		//2.3 is PWM 1.4
+	LPC_PINCON->PINSEL4 |= (1<<0); 		//2.0 is PWM 1.1
 
-	LPC_PWM1->PCR |= (1<<12);			//Turn on PWM 1.4 output
+	LPC_PWM1->PCR |= (1<<9);			//Turn on PWM 1.1 output
 	LPC_PWM1->PR = 40;					//Prescale register value to get ~60Hz
 	LPC_PWM1->MR0 = 5000;				//Match0 register
-	LPC_PWM1->MR4 = 4580;				//Match4 register, opposite because of hardware inverter.
+	LPC_PWM1->MR1 = 4580;				//Match4 register, opposite because of hardware inverter.
 	LPC_PWM1->TCR |= (1<<0)|(1<<3); 	//Enable counter and PWM.
 }
 
@@ -63,6 +63,16 @@ int main()
 	float sset = 0.0;
 
 	while(1){
+		scanf("%d", &r); //Get input in hex.
+		
+		//r *= 19.61;	//5000/255 ~= 19.61
+		sset = r/255.0;
+		servo_steer(sset);
+		
+		printf("R: %d : %f\n\r", r,sset); //Print back the results.
+	}
+
+	while(1){
 		if(polarity == 0){
 			a += .001 ;
 		}
@@ -81,15 +91,7 @@ int main()
 		delay_ms(2);
 	}
 	
-	while(1){
-		scanf("%d", &r); //Get input in hex.
-		
-		//r *= 19.61;	//5000/255 ~= 19.61
-		sset = r/255.0;
-		servo_steer(sset);
-		
-		printf("R: %d : %f\n\r", r,sset); //Print back the results.
-	}
+
 	
 	while(1){
 		servo_steer(0.0);
