@@ -398,6 +398,8 @@ int main()
 	
 	//printf("Right: %d, Left: %d, Center: %d \n\r", right, left, center);
 	mux_set(channel);
+	
+	
 	difference = right-left;
 	steer = (float)difference/2000;
 	
@@ -407,19 +409,28 @@ int main()
 	if((steer < 0.1) & (steer > -0.1)){
 		integral = 0;
 	} else {
-		boost = 0.0;
+		if(boost > 0.0){
+			boost -= 0.001;
+		} else {
+			boost = 0;
+		}
+		
 	}
 	
-	boost += .00009;
+	if(center > 2500){
+	boost += .00001;
+	}
 	
 	if(menu_count > 1){
-	motor_speed((float)menu_count*0.01 + .1 + boost);
+	motor_speed((float)menu_count*0.01 + .05);
 	}
 	
 	
 	derivative = (steer - prev_error)/2;
 	if(center > 2500){
-	servo_steer(steer*2.4 + derivative*0.19 + integral*0.010);	
+	servo_steer(steer*2.8 + derivative*0.55 + integral*0.002);	
+	//servo_steer(steer*2 + derivative*0.3 + integral*0.001);	
+	//servo_steer(steer*.95 + derivative*0.45 + integral*0.001);
 	prev_error = steer;
 	
 	}
