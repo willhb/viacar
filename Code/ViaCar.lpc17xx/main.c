@@ -74,6 +74,32 @@ int servo_steer(float value){
 	return 0;	
 }
 
+void uart0_setup(void){
+	LPC_SC->PCONP |= 1<<3;
+	LPC_SC->PCLKSEL0 |= (1<<6)|(1<<7);
+	LPC_UART0->LCR |= (3<<0)|(0<<2)|(1<<7);
+	LPC_UART0->FDR = 5|(8<<4);
+	LPC_UART0->DLL = 4;
+	LPC_UART0->DLM = 0;
+	LPC_UART0->LCR &= ~(1<<7);
+	LPC_UART0->FCR |= (1<<0)|(1<<1)|(1<<2); //Enable FIFOs
+	
+	LPC_PINCON->PINSEL0 |= (1<<4)|(1<<6); //Set 0.2 and 0.3 to  be TX and RX
+	LPC_PINCON->PINMODE0 |= (1<<5)|(1<<7); //Turn off pullups. 
+	//Divaddval = 5, MULVAL = 8, DLM = 0, DLL = 4
+}
+
+void uart0_printc(char c){
+	LPC_UART0->THR = c;
+}
+
+void uart0_string(char *str){
+	while(*str){
+		uart0_printc(*str);
+		str++;
+	}
+}
+
 void servo_setup(void){
 	LPC_SC->PCONP |= 1<<6; 				//Turn on PWM
 	LPC_SC->PCLKSEL0 |= (1<<12)|(1<<13);// PWM pclock/8
@@ -280,6 +306,8 @@ int main()
 	motor_setup();
 	mux_setup();
 	ui_setup();
+	uart0_setup();
+	uart0_string("\n\r Hello World \n\r");
 	servo_setup();	 //Initialize servo
 	delay_ms(100);
 	ui_set(1,0,0,0);
@@ -329,6 +357,8 @@ int main()
 	delay_ms(5);
 	set_pot(80, 1, 1);
 	
+	
+	char rec = 0;
 	int b_rising = 0;
 	int menu_count = 0;
 	
@@ -363,6 +393,25 @@ int main()
 	mux_set(channel);
 	
 	while(1){
+
+	if(LPC_UART0->LSR && 1){
+		rec = LPC_UART0->RBR;
+		if(rec == 's'){
+			catch = 1;
+			uart0_string("Enter Command:");
+			rgb_set(0xFF,0xFF,0);
+			motor_speed(0.0);
+			while(catch){
+				rec = LPC_UART0->RBR;
+				if(rec == 'r'){
+					uart0_string("Returning to loop...");
+					rgb_set(0xFF,0,0);
+					catch = 0;
+				}
+			}
+		}
+	}
+	
 
 	
 	for(int i = 0; i < 15 ; i++) {
