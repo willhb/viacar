@@ -300,9 +300,13 @@ int main()
 	volatile float derivative = 0.0;
 	volatile float prev_error = 0.0;
 	volatile int difference = 0;
+	volatile int center_difference = 0;
 	volatile float steer = 0.0;
 	volatile float integral = 0.0;
 	volatile float boost = 0.0;
+	volatile float Kp = 1.1;
+	volatile float Kd = 0.7;
+	volatile float Ki = 0.01;
 	motor_setup();
 	mux_setup();
 	ui_setup();
@@ -348,14 +352,15 @@ int main()
 	
 	mux_set(channel); //get 2.5V reference
 	
+	
 	//R, address, wiper
-	set_pot(150, 0, 0);
+	set_pot(160, 0, 0); //Right
 	delay_ms(5);
-	set_pot(75, 0, 1);
+	set_pot(225, 0, 1); //Left
 	delay_ms(5);
-	set_pot(100, 1, 0);
+	set_pot(180, 1, 0); //Center Left
 	delay_ms(5);
-	set_pot(80, 1, 1);
+	set_pot(180, 1, 1); //Center Right
 	
 	
 	char rec = 0;
@@ -388,27 +393,58 @@ int main()
 	}
 	
 	volatile int waveform[200];
-	volatile int left, right, center;
+	volatile int left, right, center_left, center_right;
+	
+	//Physical: 1: right, 2: left, 3: center_left, 4: center_right
 	channel = 5;
 	mux_set(channel);
 	
 	while(1){
+	
 
 	if(LPC_UART0->LSR && 1){
 		rec = LPC_UART0->RBR;
 		if(rec == 's'){
 			catch = 1;
 			uart0_string("Enter Command:");
-			rgb_set(0xFF,0xFF,0);
+			rgb_set(0x00,0x00,0xFF);
 			motor_speed(0.0);
+			delay_ms(1);
+			motor_brake(1.0);
 			while(catch){
 				rec = LPC_UART0->RBR;
 				if(rec == 'r'){
+					motor_brake(0.0);
 					uart0_string("Returning to loop...");
 					rgb_set(0xFF,0,0);
 					catch = 0;
 				}
 			}
+		}
+		
+		if(rec == '='){
+			menu_count++;
+		}
+		if(rec == '-'){
+			menu_count--;
+		}
+		if(rec == '1'){
+			Kp += 0.1;
+		}
+		if(rec == '2'){
+			Kp -= 0.1;
+		}
+		if(rec == '3'){
+			Kd += 0.05;
+		}
+		if(rec == '4'){
+			Kd -= 0.05;
+		}
+		if(rec == '5'){
+			Ki += 0.01;
+		}
+		if(rec == '6'){
+			Ki -= 0.01;
 		}
 	}
 	
@@ -432,26 +468,47 @@ int main()
 	switch(channel){
 		case 5:
 		channel = 7;
-		left = peak;
+		right = peak;
 		break;
 		case 7:
 		channel = 6;
-		right = peak;
+		left = peak;
 		break;
 		case 6:
-		channel = 5;
-		center = peak;
+		channel = 4;
+		center_left = peak;
 		break;
-
+		case 4:
+		channel = 5;
+		center_right = peak;
+		break;
 	}
 	
-	//printf("Right: %d, Left: %d, Center: %d \n\r", right, left, center);
+	
 	mux_set(channel);
 	
-	
+	center_difference = center_right-center_left;
 	difference = right-left;
-	steer = (float)difference/2000;
+	//printf("Left: %d, C_Left: %d, C_Right %d, Right %d\n\r", left, center_left, center_right, right);
+	volatile int last_direction;
+	volatile int threshold;
+
 	
+	if((center_left > 3000) || (center_right > 3000)){
+		steer = (float)difference/2000;
+		threshold = 0;
+	} else {
+		if(threshold == 0){
+			if(center_left > center_right){
+				last_direction = 1;
+			} else {
+				last_direction = 0;
+			}
+		}
+		threshold = 1;
+	}
+	
+	//printf("%d %d\n\r ", threshold, last_direction);
 	if((steer > 0.5) & (steer < -0.5)){
 		integral = integral + steer;
 	}
@@ -466,9 +523,9 @@ int main()
 		
 	}
 	
-	if(center > 2500){
+	/*if(center > 2500){
 	boost += .00001;
-	}
+	}*/
 	
 	if(menu_count > 1){
 	motor_speed((float)menu_count*0.01 + .05);
@@ -476,13 +533,19 @@ int main()
 	
 	
 	derivative = (steer - prev_error)/2;
-	if(center > 2500){
-	servo_steer(steer*2.8 + derivative*0.55 + integral*0.002);	
+	if(threshold == 0){
+	servo_steer(steer*Kp + derivative*Kd + integral*Ki);
+	} else {
+		if(last_direction){
+			servo_steer(-1.0);
+		} else {
+			servo_steer(1.0);
+		}
+	}
 	//servo_steer(steer*2 + derivative*0.3 + integral*0.001);	
 	//servo_steer(steer*.95 + derivative*0.45 + integral*0.001);
 	prev_error = steer;
-	
-	}
+
 	
 	
 	}
